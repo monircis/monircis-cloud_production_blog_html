@@ -11,7 +11,26 @@ body {
      color: #38978d;   
       text-decoration: none;
       outline: none;
-    }
+	}
+	
+	.has-search .form-control-feedback {
+		right: initial;
+		left: 0;
+		color: #ccc;
+	}
+	
+	.has-search .form-control {
+		padding-right: 12px;
+		padding-left: 34px;
+	}
+	.custom_width{
+		width: 550px !important;
+	}
+	.cus_height_search{
+		margin: 7px auto;
+		margin-left: 15px;
+	}
+	
 .nav-top-bg{
     background: #fff;
 }
@@ -112,7 +131,8 @@ footer h3{
 }
 .footer-links span a{
     font-weight: lighter;
-    color: #fff;
+	color: #fff;
+	font-size: 14px;
 }
 .code{
     padding: 15px;
@@ -312,3 +332,43 @@ padding-bottom: 10px;
     margin: 4px 4px 4px 0;
     box-shadow: 0px 0px 0px #bdbdbd;
 }
+
+.custom_align_pagination{
+	text-align: center;
+}
+.custom_pagination_color li a{
+	color: black;
+}
+
+.custom_pagination_color li a:hover{
+	background-color: #62CF6F;
+	transition: 0.5s;
+	color: white;
+}
+
+/*=========================================details page css start ============================================= */
+.post_layout{
+	margin-top: 10px;
+}
+/* .code_sniepet{
+	background-color: #F6F6F6;
+	max-height:500px;
+	padding: 15px;
+} */
+
+.pre_custom{
+	display: block;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+pre code {
+	display: block;
+	padding: 20px;
+	text-indent: 0px;
+  }
+
+.post_pragraph p{
+	margin: 10px;
+}
+/*=========================================details page css end ============================================= */
