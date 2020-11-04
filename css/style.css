@@ -371,4 +371,71 @@ pre code {
 .post_pragraph p{
 	margin: 10px;
 }
+.modal_width{
+	width: 320px;
+	
+}
+.modal2_width{
+	width: 400px;
+	
+}
+.modal-body-design{
+	height: 150px;
+	border-radius:1px ;
+	/* padding-left: 10%; */
+	
+	
+}
+
+.modal2-body-design{
+	height: 150px;
+	border-radius:1px ;
+	padding-left: 12%;
+	
+	
+}
+.modal-body-design2{
+	padding-top: 2px;
+	padding-left: 12%;
+	padding-right: 12%;
+	
+}
+.boder-bottom-color{
+	border-bottom: none;
+	border-top: none;
+	margin-left: 50px;
+
+}
+.btn_secoend{
+	background-color: #44ce6f;
+	border: #44ce6f;
+}
+.img_primary{
+  /* margin-left:80px; */
+  border-radius: 4px;
+  padding: 10px;
+  width: 150px;
+
+}
+.modal_p{
+	font-size: 13px;
+	font-family: 'Courier New', Courier, monospace;
+
+}
+.modal_p2{
+	margin-left: 120px;
+	font-size: 12px;
+	padding-top: 2px;
+	font-family: 'Courier New', Courier, monospace;
+
+}
+.signup{
+	font-size: 13px;
+	width: 50px;
+	font-family: 'Courier New', Courier, monospace;
+}
+/* .input_field{
+  padding-left: 2px;
+  padding-bottom: 2px;
+} */
 /*=========================================details page css end ============================================= */

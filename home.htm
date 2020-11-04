@@ -48,33 +48,109 @@
 							<a href="#">Question's</a>
 						</li>
 						<li>
-							<a href="#">Login</a>
+							<a href="#" data-toggle="modal" data-target="#mymodal">Login</a>
 						</li>
 						<li>
-							<a href="#" class="btn  btn-sm btn-user">Sign Up</a>
+							<a href="#" class="btn  btn-sm btn-user" data-toggle="modal" data-target="#signupmodal">Sign
+								Up</a>
 						</li>
-						<!-- <li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-							<ul class="dropdown-menu">
-							<li><a href="#">Action</a></li>
-							<li><a href="#">Another action</a></li>
-							<li><a href="#">Something else here</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Separated link</a></li>
-							</ul>
-							</li>
-							-->
-							
 					</ul>
 					<form class="form-inline">
 						<div class="form-group has-feedback has-search cus_height_search">
 							<span class="glyphicon glyphicon-search form-control-feedback"></span>
 							<input type="text" class="form-control custom_width" placeholder="Search">
-						  </div>
-					  </form>
+						</div>
+					</form>
 				</div>
 				<!-- /.navbar-collapse -->
-				
+
+				<!-- modal Start -->
+				<div class="modal" tabindex="-1" role="dialog" id="mymodal">
+					<div class="modal-dialog modal_width" role="document">
+						<div class="modal-content">
+							<div class="modal-header boder-bottom-color">
+								<img src="img/login.jpg" class="img-responsive modal-title modal-body-design" />
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								</button>
+							</div>
+							<div class="modal-body modal-body-design2">
+								<p class="modal_p"><strong>Login Customer</strong> </p>
+								<form>
+									<div class="form-group">
+										<input type="email" class="form-control" id="exampleInputEmail1"
+											aria-describedby="emailHelp" placeholder="Enter email">
+									</div>
+									<div class="form-group">
+										<input type="password" class="form-control" id="exampleInputPassword1"
+											placeholder="Password">
+									</div>
+									<p class="modal_p2">forget password?</p>
+									<button type="submit" class="btn btn-primary btn_secoend">Submit</button>
+								</form>
+							</div>
+							<div class="modal-footer boder-bottom-color">
+								<p class="modal_p">Don't Have an Account?<a href="#" class="signup"><strong> Sign
+											up</strong></a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- modal End -->
+
+				<!-- modal2 Start -->
+				<div class="modal" tabindex="-1" role="dialog" id="signupmodal">
+					<div class="modal-dialog modal2_width" role="document">
+						<div class="modal-content">
+							<div class="modal-header boder-bottom-color">
+								<img src="img/login.jpg" class="img-responsive modal-title modal2-body-design" />
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								</button>
+							</div>
+							<div class="modal-body modal-body-design2">
+								<p class="modal_p"><strong>SignUp Customer</strong> </p>
+								<form>
+									<!-- <div class="form-group">
+										<input type="firstName" class="form-control " id="exampleInputFirstName"
+											aria-describedby="emailHelp" placeholder="FirstName">
+									</div>
+									<div class="form-group">
+										<input type="lastName" class="form-control" id="exampleInputLastName"
+											aria-describedby="emailHelp" placeholder="LastName">
+									</div> -->
+									<div class="form-group">
+										<input type="userName" class="form-control" id="exampleInputUserName"
+											aria-describedby="emailHelp" placeholder="UserName">
+									</div>
+									<div class="form-group">
+										<input type="phone" class="form-control" id="exampleInputPhone"
+											aria-describedby="emailHelp" placeholder="PhoneNo">
+									</div>
+									<div class="form-group">
+										<input type="email" class="form-control" id="exampleInputEmail1"
+											aria-describedby="emailHelp" placeholder="Email">
+									</div>
+
+									<div class="form-group">
+										<input type="password" class="form-control" id="exampleInputPassword1"
+											placeholder="Password">
+									</div>
+									<p>Upload Profile image</p>
+									<div class="form-group">
+										<input type="file" id="myfile" name="myfile"><br><br>
+										<button type="submit" class="btn btn-primary btn_secoend">Submit</button>
+									</div>
+									<!-- <button type="submit" class="btn btn-primary btn_secoend">Submit</button> -->
+								</form>
+							</div>
+							<div class="modal-footer boder-bottom-color">
+								<p class="modal_p">Have an Account?<a href="#" class="signup"><strong>
+											Login</strong></a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- modal2 End -->
+
 			</div>
 		</div>
 		<!-- /.container-fluid -->
@@ -83,38 +159,40 @@
 	<div class="container mt-4">
 		<div class="row">
 			<div class="col-md-9 col-sm-8 col-xs-12">
-		 
+
 				<!-- post start  -->
 				<div class="post_wrap">
 					<div class="post_view_answer pull-left">
 						<div class="activity-summary">
 							<b>
-							10
+								10
 							</b>
 							view's
-							</div>
-							<div class="activity-summary">
+						</div>
+						<div class="activity-summary">
 							<i class="fa fa-circle-o">
 							</i>
 							<div class="line-y">
 							</div>
 							<i class="fa fa-circle-o">
 							</i>
-							</div>
-							<div class="activity-summary">
+						</div>
+						<div class="activity-summary">
 							<b>
-							10
+								10
 							</b>
 							answer's
-							</div>
+						</div>
 					</div>
-					
+
 					<div class="post_article pull-left">
-						
-						<h3><a href="#">There are many variations of passages of Lorem IpsumIt is Lorem IpsumIt IpsumIt is</a></h3>
+
+						<h3><a href="#">There are many variations of passages of Lorem IpsumIt is Lorem IpsumIt IpsumIt
+								is</a></h3>
 						<div class="details">
 							<ul>
-								<li><span class="user_padding"><i class="fa fa-user-o" aria-hidden="true"></i></span>By Admin
+								<li><span class="user_padding"><i class="fa fa-user-o" aria-hidden="true"></i></span>By
+									Admin
 								</li>
 								<li><i class="fa fa-clock-o" aria-hidden="true"></i> April 18, 2017</li>
 								<li>Webdesign</li>
@@ -128,165 +206,171 @@
 						<div class="tags">
 							<span class="label label-default">Jquery </span>
 							<span class="label label-default">Php Label</span>
-							<span class="label label-default">Laravel  </span>
+							<span class="label label-default">Laravel </span>
 						</div>
-	
+
 					</div>
 				</div>
 				<!-- post end  -->
-					<!-- post start  -->
-			<div class="post_wrap">
-				<div class="post_view_answer pull-left">
-					<div class="activity-summary">
-						<b>
-						10
-						</b>
-						view's
+				<!-- post start  -->
+				<div class="post_wrap">
+					<div class="post_view_answer pull-left">
+						<div class="activity-summary">
+							<b>
+								10
+							</b>
+							view's
 						</div>
 						<div class="activity-summary">
-						<i class="fa fa-circle-o">
-						</i>
-						<div class="line-y">
-						</div>
-						<i class="fa fa-circle-o">
-						</i>
+							<i class="fa fa-circle-o">
+							</i>
+							<div class="line-y">
+							</div>
+							<i class="fa fa-circle-o">
+							</i>
 						</div>
 						<div class="activity-summary">
-						<b>
-						10
-						</b>
-						answer's
+							<b>
+								10
+							</b>
+							answer's
 						</div>
-				</div>
-				
-				<div class="post_article pull-left">
-					
-					<h3><a href="#">There are many variations of passages of Lorem IpsumIt is Lorem IpsumIt IpsumIt is</a></h3>
-					<div class="details">
-						<ul>
-							<li><span class="user_padding"><i class="fa fa-user" aria-hidden="true"></i></span>By Admin
-							</li>
-							<li>April 18, 2017</li>
-							<li>Webdesign</li>
-						</ul>
 					</div>
-					<div class="content">
-						<p>It is a long established fact that a reader will be distracted by
-							the readable content of a page when looking at its layout. The point
-							of using Lorem Ipsum is that it has a more-or-less normal distribution </p>
-					</div>
-					<div class="tags">
-						<span class="label label-default">Jquery </span>
+
+					<div class="post_article pull-left">
+
+						<h3><a href="#">There are many variations of passages of Lorem IpsumIt is Lorem IpsumIt IpsumIt
+								is</a></h3>
+						<div class="details">
+							<ul>
+								<li><span class="user_padding"><i class="fa fa-user" aria-hidden="true"></i></span>By
+									Admin
+								</li>
+								<li>April 18, 2017</li>
+								<li>Webdesign</li>
+							</ul>
+						</div>
+						<div class="content">
+							<p>It is a long established fact that a reader will be distracted by
+								the readable content of a page when looking at its layout. The point
+								of using Lorem Ipsum is that it has a more-or-less normal distribution </p>
+						</div>
+						<div class="tags">
+							<span class="label label-default">Jquery </span>
 							<span class="label label-default">Php Label</span>
-							<span class="label label-default">Laravel  </span>
+							<span class="label label-default">Laravel </span>
+						</div>
+
+					</div>
+				</div>
+				<!-- post end  -->
+				<!-- post start  -->
+				<div class="post_wrap">
+					<div class="post_view_answer pull-left">
+						<div class="activity-summary">
+							<b>
+								10
+							</b>
+							view's
+						</div>
+						<div class="activity-summary">
+							<i class="fa fa-circle-o">
+							</i>
+							<div class="line-y">
+							</div>
+							<i class="fa fa-circle-o">
+							</i>
+						</div>
+						<div class="activity-summary">
+							<b>
+								10
+							</b>
+							answer's
+						</div>
 					</div>
 
+					<div class="post_article pull-left">
+
+						<h3><a href="#">There are many variations of passages of Lorem IpsumIt is Lorem IpsumIt IpsumIt
+								is</a></h3>
+						<div class="details">
+							<ul>
+								<li><span class="user_padding"><i class="fa fa-user-o" aria-hidden="true"></i></span>By
+									Admin
+								</li>
+								<li><i class="fa fa-clock-o" aria-hidden="true"></i> April 18, 2017</li>
+								<li>Webdesign</li>
+							</ul>
+						</div>
+						<div class="content">
+							<p>It is a long established fact that a reader will be distracted by
+								the readable content of a page when looking at its layout. The point
+								of using Lorem Ipsum is that it has a more-or-less normal distribution </p>
+						</div>
+						<div class="tags">
+							<span class="label label-default">Jquery </span>
+							<span class="label label-default">Php Label</span>
+							<span class="label label-default">Laravel </span>
+						</div>
+
+					</div>
 				</div>
-			</div>
-			<!-- post end  -->
-			<!-- post start  -->
-			<div class="post_wrap">
-				<div class="post_view_answer pull-left">
-					<div class="activity-summary">
-						<b>
-						10
-						</b>
-						view's
+				<!-- post end  -->
+				<!-- post start  -->
+				<div class="post_wrap">
+					<div class="post_view_answer pull-left">
+						<div class="activity-summary">
+							<b>
+								10
+							</b>
+							view's
 						</div>
 						<div class="activity-summary">
-						<i class="fa fa-circle-o">
-						</i>
-						<div class="line-y">
-						</div>
-						<i class="fa fa-circle-o">
-						</i>
+							<i class="fa fa-circle-o">
+							</i>
+							<div class="line-y">
+							</div>
+							<i class="fa fa-circle-o">
+							</i>
 						</div>
 						<div class="activity-summary">
-						<b>
-						10
-						</b>
-						answer's
+							<b>
+								10
+							</b>
+							answer's
 						</div>
-				</div>
-				
-				<div class="post_article pull-left">
-					
-					<h3><a href="#">There are many variations of passages of Lorem IpsumIt is Lorem IpsumIt IpsumIt is</a></h3>
-					<div class="details">
-						<ul>
-							<li><span class="user_padding"><i class="fa fa-user-o" aria-hidden="true"></i></span>By Admin
-							</li>
-							<li><i class="fa fa-clock-o" aria-hidden="true"></i> April 18, 2017</li>
-							<li>Webdesign</li>
-						</ul>
-					</div>
-					<div class="content">
-						<p>It is a long established fact that a reader will be distracted by
-							the readable content of a page when looking at its layout. The point
-							of using Lorem Ipsum is that it has a more-or-less normal distribution </p>
-					</div>
-					<div class="tags">
-						<span class="label label-default">Jquery </span>
-						<span class="label label-default">Php Label</span>
-						<span class="label label-default">Laravel  </span>
 					</div>
 
-				</div>
-			</div>
-			<!-- post end  -->
-			<!-- post start  -->
-			<div class="post_wrap">
-				<div class="post_view_answer pull-left">
-					<div class="activity-summary">
-						<b>
-						10
-						</b>
-						view's
-						</div>
-						<div class="activity-summary">
-						<i class="fa fa-circle-o">
-						</i>
-						<div class="line-y">
-						</div>
-						<i class="fa fa-circle-o">
-						</i>
-						</div>
-						<div class="activity-summary">
-						<b>
-						10
-						</b>
-						answer's
-						</div>
-				</div>
-				
-				<div class="post_article pull-left">
-					
-					<h3><a href="#">There are many variations of passages of Lorem IpsumIt is Lorem IpsumIt IpsumIt is</a></h3>
-					<div class="details">
-						<ul>
-							<li><span class="user_padding"><i class="fa fa-user-o" aria-hidden="true"></i></span>By Admin
-							</li>
-							<li><i class="fa fa-clock-o" aria-hidden="true"></i> April 18, 2017</li>
-							<li>Webdesign</li>
-						</ul>
-					</div>
-					<div class="content">
-						<p>It is a long established fact that a reader will be distracted by
-							the readable content of a page when looking at its layout. The point
-							of using Lorem Ipsum is that it has a more-or-less normal distribution </p>
-					</div>
-					<div class="tags">
-						<span class="label label-default">Jquery </span>
-						<span class="label label-default">Php Label</span>
-						<span class="label label-default">Laravel  </span>
-					</div>
+					<div class="post_article pull-left">
 
+						<h3><a href="#">There are many variations of passages of Lorem IpsumIt is Lorem IpsumIt IpsumIt
+								is</a></h3>
+						<div class="details">
+							<ul>
+								<li><span class="user_padding"><i class="fa fa-user-o" aria-hidden="true"></i></span>By
+									Admin
+								</li>
+								<li><i class="fa fa-clock-o" aria-hidden="true"></i> April 18, 2017</li>
+								<li>Webdesign</li>
+							</ul>
+						</div>
+						<div class="content">
+							<p>It is a long established fact that a reader will be distracted by
+								the readable content of a page when looking at its layout. The point
+								of using Lorem Ipsum is that it has a more-or-less normal distribution </p>
+						</div>
+						<div class="tags">
+							<span class="label label-default">Jquery </span>
+							<span class="label label-default">Php Label</span>
+							<span class="label label-default">Laravel </span>
+						</div>
+
+					</div>
 				</div>
-			</div>
-			<!-- post end  -->
+				<!-- post end  -->
 			</div>
 			<div class="col-md-3 col-sm-4 col-xs-12">
-            	<div class="sidebar">
+				<div class="sidebar">
 
 					<h3>Tags</h3>
 					<ul>
@@ -317,7 +401,7 @@
 					</ul>
 
 				</div>
-			
+
 			</div>
 		</div>
 	</div>
@@ -326,13 +410,13 @@
 			<div class="col-md-12 custom_align_pagination">
 				<nav aria-label="Page navigation example">
 					<ul class="pagination custom_pagination_color">
-					  <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-					  <li class="page-item"><a class="page-link" href="#">1</a></li>
-					  <li class="page-item"><a class="page-link" href="#">2</a></li>
-					  <li class="page-item"><a class="page-link" href="#">3</a></li>
-					  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+						<li class="page-item"><a class="page-link" href="#">Previous</a></li>
+						<li class="page-item"><a class="page-link" href="#">1</a></li>
+						<li class="page-item"><a class="page-link" href="#">2</a></li>
+						<li class="page-item"><a class="page-link" href="#">3</a></li>
+						<li class="page-item"><a class="page-link" href="#">Next</a></li>
 					</ul>
-				  </nav>
+				</nav>
 			</div>
 		</div>
 	</div>
@@ -387,22 +471,23 @@
 	</footer>
 	<!-- jQuery first, then Tether, then Bootstrap JS. -->
 	<script src="js/jquery.min.js">
-
-
-
-
 	</script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
 		integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
-
-
 		</script>
 	<script src="js/custom.js">
-
-
-
-
 	</script>
+
+	<!--Bootstrap CDN-->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+		integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+		crossorigin="anonymous"></script>
 </body>
 
 </html>
