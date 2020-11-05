@@ -25,6 +25,11 @@ body {
 	}
 	.custom_width{
 		width: 550px !important;
+        box-shadow: none;
+	}
+    	.custom_width:focus{ 
+        box-shadow: none;
+        border: 1px solid #44ce6f;
 	}
 	.cus_height_search{
 		margin: 7px auto;
@@ -528,8 +533,34 @@ pre code {
   .new-button{
 	  background-color: lightgreen;
   }
+.comment-box{
+  background: #fff;
+overflow: hidden;
+padding: 30px 15px;
+margin-top: 15px;
+box-shadow: 0px 0px 3px #00000012;
+}
 
-
-
-
+#textInput{
+    width: 100%;
+}
+#textInput:focus{
+    box-shadow: none;
+   border: 1px solid #44ce6f;
+}
+.w100{
+    width: 100%;
+}
+.cbox{
+   margin-top: 15px;
+float: left;
+}
+.add-comment{
+    background-color: #44ce6f;
+border: #44ce6f;
+}
+.add-comment:hover{
+    background-color: #44ce6f;
+border: #44ce6f;
+}
 /*=========================================details page css end ============================================= */
