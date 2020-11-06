@@ -188,6 +188,10 @@ footer h3{
 	padding:3px 27px 19px 5px; 
 	overflow: hidden;
 	border-bottom: 1px solid #E8E8E8;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 .post_view_answer{
 	width: 10%;
@@ -221,7 +225,11 @@ footer h3{
 .post_article{
     width: 90%;
     font-size: 14px;
-    font-family: 'Open Sans Light', sans-serif; 
+	font-family: 'Open Sans Light', sans-serif; 
+	/* padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px; */
 }
 .post_article h3 a{
 	font-size:19px;
@@ -330,8 +338,14 @@ padding-bottom: 10px;
     border-radius: 2px !important;
     color: #000;
     margin: 4px 4px 4px 0;
-    box-shadow: 0px 0px 0px #bdbdbd;
+	box-shadow: 0px 0px 0px #bdbdbd;
 }
+/* .tag_bg{
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+} */
 
 .custom_align_pagination{
 	text-align: center;
@@ -361,6 +375,15 @@ padding-bottom: 10px;
     padding: 0px;
     margin: 0px;
     border: none;
+}
+.pre2_custom{
+	display: block;
+    padding: 0px;
+    margin: 0px;
+	border: none;
+	width: 700px;
+	margin-left: 55px;
+
 }
 pre code {
 	display: block;
@@ -434,102 +457,98 @@ pre code {
 	width: 50px;
 	font-family: 'Courier New', Courier, monospace;
 }
-/* .input_field{
-  padding-left: 2px;
-  padding-bottom: 2px;
-} */
-
-
-.comment-main ul{
-	list-style: none;
-}
-
-.main-cmt-img{
-    width: 40px !important;
-    height: 40px !important;
-    border-radius: 50%;
-}
-.border-bottom{
-	font-size: 13px;
-	
-}
-.user-comment{
-	background-color: #f3f3f3 !important;
-    box-shadow: 0px 5px 8px -4px #c1c1c1;
-}
-.user-comment-desc, .user-comment span{
-	color: #a0a0a0;
-}
-.user-comment-desc p{
-	font-size: 12px;
-	display: inline-block;
-	float: left;
-	font-size: 13px;
-}
-.user-comment:before{
-    content: "";
-    height: 0;
-    width: 0;
-    top: 15px;
-    left: -10px;
-    position: absolute;
-    border-style: solid;
-    border-width: 13px 0 0 13px;
-	border-color: #f3f3f3 transparent transparent transparent; 
-	
-}
-.answer-header{
+.tag-h3{
 	color: #44ce6f;
-
-}
-
-.timer-paragraph{
-	margin-top: 10px;
-	font-size: 13px;
-	margin-left: 83%;
-	font-family: 'Open Sans Light', sans-serif;
-}
-.answer-body{
-	font-family: 'Open Sans Light', sans-serif;
-
-}
-.vl {
-	border-left: 2px solid lightgray;
-	height: 20px;
-	margin-left: 12px;
-	margin-right: 12px;
-  }
- .button-design{
-  background-color: #44ce6f;
-  border: #44ce6f;
-  /* margin-left: 2%; */
-  margin-top: 3%;
-  margin-bottom: 3%;
- }
- .button-div{
-  background-color: lightgray;
-  margin-top: .5%;
-  margin-left: 16.7%;
-  border-radius: 2px
-  
- }
- .comment-div{
-	/* background-color: lightgray; */
-	margin-top: 1%;
 	margin-left: 5%;
-	border-radius: 2px
-	
-   }
- textarea {
-	resize: none;
-	margin-bottom: 2%;
+}
+.answer-head{
+	padding-top: 20px;
+	padding-left: 10px;
+	color: black;
+	font-size: 17px;
+	font-family: 'Open Sans Light', sans-serif;
+}
+.answer_para{
+	width: 780px;
+	padding-left: 65px;
+	padding-top: 35px;
+	font-family: 'Open Sans Light', sans-serif;
+}
+.answer_para2{
+	width: 780px;
+	padding-left: 65px;
+	font-family: 'Open Sans Light', sans-serif;
+}
+.share_div{
+	width: 780px;
+	padding-left: 65px;
+	padding-top: 20px;
+}
+.share_btn{
+	color: gray;
+	padding-right: 5px;
+	font-size: 13px;
+}
+.poster_div{
+   margin-left: 68%;
+   background-color:#e9ffdb;
+   width: 200px;
+   height: 80px;
+   border-radius: 2px;
+}
+.poster_para{
+	padding-left: 10px;
+	padding-top:5px ;
+	font-size: 13px;
+	color: gray;
+	font-family:'Open Sans Light', sans-serif ;
+}
+.img_div{
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  padding-bottom: 5px;
+  padding-left: 2px;
+  float: left;
+}
+.poster_para2{
+  color: #44ce6f;
+  font-family:'Open Sans Light', sans-serif ;
+  margin-left: 30%;
+  margin-top: 8%;
+}
+.comment_div{
+   font-size: 12px;
+   font-family:'Open Sans Light', sans-serif ;
+}
+.name-col{
+	color:#44ce6f ;
+	font-size: 13px;
+	font-family:'Open Sans Light', sans-serif ;
+}
+.date-col{
+	color: gray;
+	font-family:'Open Sans Light', sans-serif ;
+	font-size: 12px;
+	margin-left: 3px;
+}
+.comment1_para{
 	margin-top: 2%;
+}
+.quest_edit{
+  /* color: #38978d; */
+  margin-left: 16px;
+}
+textarea {
+	resize: none;
+	border-color: #b5b5b5;
+	border-radius: 2px;
+	margin-bottom: 5px;
   }
-  .new-button{
-	  background-color: lightgreen;
-  }
-
-
+  #textInput:focus{
+    box-shadow: none;
+   border: 1px solid #44ce6f;
+}
 
 
 /*=========================================details page css end ============================================= */
