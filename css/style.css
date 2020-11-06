@@ -25,6 +25,11 @@ body {
 	}
 	.custom_width{
 		width: 550px !important;
+        box-shadow: none;
+	}
+    	.custom_width:focus{ 
+        box-shadow: none;
+        border: 1px solid #44ce6f;
 	}
 	.cus_height_search{
 		margin: 7px auto;
