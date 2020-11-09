@@ -466,6 +466,10 @@ pre code {
 	color: #44ce6f;
 	margin-left: 5%;
 }
+.ask-h3{
+	color: #44ce6f;
+	
+}
 .answer-head{
 	padding-top: 20px;
 	padding-left: 10px;
@@ -554,6 +558,8 @@ textarea {
     box-shadow: none;
    border: 1px solid #44ce6f;
 }
-
+.text_area{
+	padding-top: 18px;
+}
 
 /*=========================================details page css end ============================================= */

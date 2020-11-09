@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta http-equiv="x-ua-compatible" content="ie=edge" />
 	<title>
-		Home Design
+		Details
 	</title>
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -379,11 +379,11 @@
 	<script src="js/jquery.min.js"></script>
 	<script>
 		function onButtonClick() {
+			event.preventDefault()
 			document.getElementById('textInput').className = "show form-control";
-			// document.getElementById('text').className = "show";
 		}
 		function onClick() {
-			// document.getElementById('textInput').className = "show";
+			event.preventDefault()
 			document.getElementById('text').className = "show form-control";
 		}
 	</script>
