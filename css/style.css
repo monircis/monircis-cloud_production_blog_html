@@ -236,6 +236,9 @@ footer h3{
 	padding-top: 30px;
 	padding-bottom: 30px; */
 }
+.post_article.full{
+    width: 100%;
+    }
 .post_article h3 a{
 	font-size:19px;
 	margin-bottom:12px;
@@ -561,5 +564,7 @@ textarea {
 .text_area{
 	padding-top: 18px;
 }
-
+.form-group .panel{
+    margin-bottom: 0;
+}
 /*=========================================details page css end ============================================= */
