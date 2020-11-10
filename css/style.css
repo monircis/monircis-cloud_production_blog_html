@@ -198,6 +198,15 @@ footer h3{
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
+.askqst_post_wrap{
+	background-color:#fff;
+	padding:3px 27px 19px 5px; 
+	overflow: hidden;
+	border-bottom: 1px solid #E8E8E8;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+}
 .post_view_answer{
 	width: 10%;
     padding-top: 29px;
@@ -437,6 +446,21 @@ pre code {
 	margin-left: 50px;
 
 }
+.bottom-color{
+	border-bottom: none;
+	border-top: none;
+	margin-left: 20px;
+	
+}
+.bottom-design{
+	border-bottom: none;
+	border-top: none;
+	margin-left: 28px;
+	color:black;
+	font-family: 'Courier New', Courier, monospace;
+
+	
+}
 .btn_secoend{
 	background-color: #44ce6f;
 	border: #44ce6f;
@@ -460,6 +484,13 @@ pre code {
 	font-family: 'Courier New', Courier, monospace;
 
 }
+.modal_p3{
+	font-size: 13px;
+	font-family: 'Courier New', Courier, monospace;
+	color: black;
+
+}
+
 .signup{
 	font-size: 13px;
 	width: 50px;
@@ -471,6 +502,7 @@ pre code {
 }
 .ask-h3{
 	color: #44ce6f;
+	padding-bottom: 18px;
 	
 }
 .answer-head{
@@ -566,5 +598,22 @@ textarea {
 }
 .form-group .panel{
     margin-bottom: 0;
+}
+.edit_ic{
+	font-size: 12px;
+	margin-left: 3px;
+	color: gray;
+
+}
+.post-btn{
+	background-color: #44ce6f;
+	border:#44ce6f;
+}
+.ask-qu-modal{
+	width: 400px;
+}
+.window_close_icon{
+	color: gray;
+	margin-left: 95%;
 }
 /*=========================================details page css end ============================================= */
