@@ -455,9 +455,12 @@ pre code {
 .bottom-design{
 	border-bottom: none;
 	border-top: none;
-	margin-left: 28px;
-	color:black;
-	font-family: 'Courier New', Courier, monospace;
+	margin-left: 20px;
+	margin-top: 5px;
+	padding-top: 5px;
+	color:#565656;
+	font-family: 'Open Sans Light', sans-serif;
+
 
 	
 }
@@ -486,9 +489,34 @@ pre code {
 }
 .modal_p3{
 	font-size: 13px;
-	font-family: 'Courier New', Courier, monospace;
-	color: black;
-
+	font-family: 'Open Sans Light', sans-serif;
+	color: #565656;
+	padding-left: 20px;
+}
+.modal2_btn{
+	font-family: 'Open Sans Light', sans-serif;
+	margin-left: 20px;
+	background-color: #44ce6f;
+	border-color:#44ce6f ;
+	color: white;
+	font-size: 12px;
+    margin-top: 5px;
+	
+}
+.modal2_btn2{
+	font-family: 'Open Sans Light', sans-serif;
+	margin-left: 20px;
+	color: #44ce6f;
+	font-size: 12px;
+    margin-top: 5px;
+	
+}
+.modal_p4{
+	font-size: 12px;
+	font-family: 'Open Sans Light', sans-serif;
+	color: #949494;
+	padding-left: 20px;
+	padding-top: 5px;
 }
 
 .signup{
@@ -499,6 +527,10 @@ pre code {
 .tag-h3{
 	color: #44ce6f;
 	margin-left: 5%;
+}
+.header2{
+	color: #44ce6f;
+	margin-bottom: 20px;
 }
 .ask-h3{
 	color: #44ce6f;
@@ -611,9 +643,87 @@ textarea {
 }
 .ask-qu-modal{
 	width: 400px;
+	height: 430px;
 }
 .window_close_icon{
 	color: gray;
 	margin-left: 95%;
 }
+.modal-head{
+	padding-left: 20px;
+	padding-bottom: 12px;
+	/* float: left; */
+	font-family:'Open Sans Light', sans-serif  ;
+}
+.modal-middele{
+	/* color: darkcyan; */
+	color: #44ce6f;
+}
+.span_num{
+	color: #44ce6f;
+	font-size: 20px;
+	padding-right: 2px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bell_icon{
+	color:gray ;
+	padding-top: 11px;
+}
+.circle{
+ color: red;
+ font-size: 11px;
+}
+.circle2{
+	padding-top: 9px;
+	margin-left: 9px;
+}
+#customers {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+  }
+  
+  #customers td, #customers th {
+	/* border: 1px solid white; */
+	padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	background-color: #44ce6f;
+	color: white;
+  }
+  .table_trash{
+   font-size: 15px;
+   color: red;
+  }
+  .table_edit{
+	font-size: 20px;
+	color: #44ce6f;
+   }
+   .tdcolor{
+	 color: red;
+	 font-size: 13px;
+	 font-family:'Open Sans Light', sans-serif ;
+   }
+   .main-cmt-img{
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50%;
+}
+.tdname{
+	color:#44ce6f ;
+}
+.thbody{
+	color: black;
+	font-size: 13px;
+	font-family:'Open Sans Light', sans-serif ;
+}
+
 /*=========================================details page css end ============================================= */
