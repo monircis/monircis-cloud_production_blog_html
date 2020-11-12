@@ -468,6 +468,11 @@ pre code {
 	background-color: #44ce6f;
 	border: #44ce6f;
 }
+.btn_secoend:hover {
+	background-color: white;
+	color: #44ce6f;
+	border: 1px solid #44ce6f;
+  }
 .img_primary{
   /* margin-left:80px; */
   border-radius: 4px;
@@ -531,6 +536,10 @@ pre code {
 .header2{
 	color: #44ce6f;
 	margin-bottom: 20px;
+}
+.header3{
+	color: #44ce6f;
+	
 }
 .ask-h3{
 	color: #44ce6f;
@@ -678,7 +687,7 @@ textarea {
 	margin-left: 9px;
 }
 #customers {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family:'Open Sans Light', sans-serif ;
 	border-collapse: collapse;
 	width: 100%;
   }
@@ -686,6 +695,12 @@ textarea {
   #customers td, #customers th {
 	/* border: 1px solid white; */
 	padding: 8px;
+  }
+
+  #customers td{
+	  text-align: center;
+	  font-family:'Open Sans Light', sans-serif ;
+	  color: black;
   }
   
   #customers tr:nth-child(even){background-color: #f2f2f2;}
@@ -699,17 +714,19 @@ textarea {
 	background-color: #44ce6f;
 	color: white;
   }
-  .table_trash{
-   font-size: 15px;
-   color: red;
+  .user{
+	text-align: left;
   }
+
+ 
   .table_edit{
+	  
 	font-size: 20px;
 	color: #44ce6f;
    }
    .tdcolor{
-	 color: red;
-	 font-size: 13px;
+	 color:#44ce6f ;
+	 font-size: 11px;
 	 font-family:'Open Sans Light', sans-serif ;
    }
    .main-cmt-img{
@@ -717,6 +734,15 @@ textarea {
     height: 40px !important;
     border-radius: 50%;
 }
+.main-cmt-profile{
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 50%;
+}
+/* .profile_div{
+
+  background-color: greenyellow;
+} */
 .tdname{
 	color:#44ce6f ;
 }
@@ -725,5 +751,151 @@ textarea {
 	font-size: 13px;
 	font-family:'Open Sans Light', sans-serif ;
 }
+.groupedit{
+	font-family:'Open Sans Light', sans-serif ;
+	background-color: gold;
+	font-size: 11px;
+	color: white;
+	border: 1px solid gold;
+}
+.groupedit:hover {
+	background-color: white;
+	color: gold;
+	border: 1px solid gold;
+  }
+.table_trash{
+	font-family:'Open Sans Light', sans-serif ;
+   font-size: 11px;
+   background-color: red;
+   color: white;
+  }
+  .table_trash:hover {
+	background-color: white;
+	color: red;
+	border: 1px solid red;
+  }
+  .table_approve{
+	font-family:'Open Sans Light', sans-serif ;
+   font-size: 11px;
+   background-color: #44ce6f ;
+   color: white;
+  }
+  .table_approve:hover {
+	background-color: white;
+	color: #44ce6f;
+	border: 1px solid #44ce6f;
+	
+  }
+.para{
+	color: #44ce6f ;
+	font-size: 11px;
+	font-family:'Open Sans Light', sans-serif ;
+}
+.addGroup{
+  
+  border-radius: 5px;
+  font-family:'Open Sans Light', sans-serif ;
+  margin-left: 90%;
+  margin-bottom: 5px;
+}
+.addGroup:hover {
+	background-color: white;
+	color:#44ce6f;
+	border: 1px solid #44ce6f;
+  }
+.plus_icon{
+	padding-right: 7px;
+}
+.text_control{
+	width: 250px;
+}
+.profile_img{
+	background-color:#e9ffdb ;
+	
+}
+.profile_div{
+	background-color:white;
+	height:700px;
+	margin-top: 25px;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	box-shadow: 1px 1px 8px 2px #C0C0C0;
+}
+.settings_div{
+	background-color:white;
+	height:700px;
+	margin-top: 25px;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+	box-shadow: 5px 0px 10px 0px #C0C0C0;
+	
+	
+}
+.pi_border{
+	border-left: 2px solid #C0C0C0;
+}
+.heading{
+ margin-left: 40%;
+ margin-top: 15%;
+ font-family:monospace ;
+}
+.left_div{
+ margin-left: 18%;
+ margin-top: 14%;
+ font-family:monospace;
+}
+.text_design{
+	padding-right: 7px;
+	color:#C0C0C0;
+}
+.para_name{
+	/* background-color: grey; */
+	width: 250px;
+	padding-top: 3%;
+	margin-left: 3%;
+}
+.name_desin{
+	font-size: 17px;
+	color:gray;
+	font-family:fantasy ;
+}
+.name2_desin{
+	font-size: 15px;
+	color:black;
+	font-family:fantasy ;
+}
+.passord_change{
+	margin-left: 44.5%;
+	border-radius: 30px;
+	padding-left: 12px;
+	padding-bottom: 12px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	background-color: #44ce6f;
+	border: 1px solid #44ce6f;
+}
+.passord_change:hover {
+	background-color: white;
+	color:#44ce6f;
+	border: 1px solid #44ce6f;
+  }
+
+  .row_div{
+	  margin-top: 30px;
+	margin-left: 30px;
+	margin-right: 30px;
+  }
+  .text-line {
+    background-color: transparent;
+    color: black;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid gray 1px;
+    padding: 3px 10px;
+}
+
 
 /*=========================================details page css end ============================================= */
