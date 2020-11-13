@@ -473,6 +473,27 @@ pre code {
 	color: #44ce6f;
 	border: 1px solid #44ce6f;
   }
+
+  .admin_approve{
+	background-color: #44ce6f;
+	border: #44ce6f;
+	color: white;
+}
+.admin_approve:hover {
+	background-color: white;
+	color: #44ce6f;
+	border: 1px solid #44ce6f;
+  }
+  .admin_cancel{
+	background-color: red;
+	border: red;
+	color: white;
+}
+.admin_cancel:hover {
+	background-color: white;
+	color: red;
+	border: 1px solid red;
+  }
 .img_primary{
   /* margin-left:80px; */
   border-radius: 4px;
@@ -714,6 +735,38 @@ textarea {
 	background-color: #44ce6f;
 	color: white;
   }
+  /* duplicate */
+  #list_customers {
+	font-family:'Open Sans Light', sans-serif ;
+	border-collapse: collapse;
+	width: 100%;
+  }
+  
+  #list_customers td, #list_customers th {
+	/* border: 1px solid white; */
+	padding: 8px;
+  }
+
+  #list_customers td{
+	  text-align: center;
+	  font-family:'Open Sans Light', sans-serif ;
+	  color: black;
+	  padding-top: inherit;
+	  padding-bottom: inherit;
+  }
+  
+  #list_customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #list_customers tr:hover {background-color: #ddd;}
+  
+  #list_customers th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	background-color: #44ce6f;
+	color: white;
+  }
+  
   .user{
 	text-align: left;
   }
@@ -737,7 +790,10 @@ textarea {
 .main-cmt-profile{
     width: 100px !important;
     height: 100px !important;
-    border-radius: 50%;
+	border-radius: 50%;
+	margin-top: -21px;
+	margin-left: -46px;
+	box-shadow:  0 0 10px 5px #C0C0C0;
 }
 /* .profile_div{
 
@@ -745,6 +801,8 @@ textarea {
 } */
 .tdname{
 	color:#44ce6f ;
+	font-size: 11px;
+	font-family: fantasy;
 }
 .thbody{
 	color: black;
@@ -757,6 +815,7 @@ textarea {
 	font-size: 11px;
 	color: white;
 	border: 1px solid gold;
+	margin-right: 4px;
 }
 .groupedit:hover {
 	background-color: white;
@@ -768,6 +827,7 @@ textarea {
    font-size: 11px;
    background-color: red;
    color: white;
+   margin-right: 4px;
   }
   .table_trash:hover {
 	background-color: white;
@@ -797,6 +857,8 @@ textarea {
   font-family:'Open Sans Light', sans-serif ;
   margin-left: 90%;
   margin-bottom: 5px;
+  /* background-color: #44ce6f; */
+  /* color: white; */
 }
 .addGroup:hover {
 	background-color: white;
@@ -839,6 +901,11 @@ textarea {
  margin-top: 15%;
  font-family:monospace ;
 }
+.pro_heading{
+	margin-left: 40%;
+	margin-top: -3%;
+	font-family:monospace ;
+   }
 .left_div{
  margin-left: 18%;
  margin-top: 14%;
@@ -893,9 +960,25 @@ textarea {
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: solid gray 1px;
+    border-bottom: solid#C0C0C0 1px;
     padding: 3px 10px;
 }
+/* .btnSave{
+	margin-top: 20%;
+	margin-left: 42%;
+	background-color: #44ce6f;
+	border: #44ce6f;
+}
+.btnSave:hover {
+	background-color: white;
+	color:#44ce6f;
+	border: 1px solid #44ce6f;
+  } */
+
+  /* camera css */
+ .camera_icon{
+   color: gray;
+ }
 
 
 /*=========================================details page css end ============================================= */

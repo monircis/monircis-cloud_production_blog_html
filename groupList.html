@@ -73,86 +73,112 @@
             <!-- post start  -->
             <div class="askqst_post_wrap">
                 <h4 class="header3">Groups</h4>
-                <button type="button" class="btn btn-secondary addGroup" onclick="onButtonClick()"><i
+                <button type="button" id="first-button" class="btn btn-secondary addGroup" onclick="onButtonClick()"><i
                         class="fa fa-plus plus_icon" aria-hidden="true" style="color: #44ce6f ;"></i>Add Group</button>
                 <div class="text_control">
-                    <input class="hide textInput " id="textInput" name="story" 
-                        placeholder="Add Group" style="margin-bottom: 5px;"></input>
+                    <input class="hide textInput " id="textInput" name="story" placeholder="Add Group"
+                        style="margin-bottom: 5px;"></input>
+                    <button type="button" class="hide" id="newbtn">Basic</button>
                 </div>
-                <button type="button" class="hide " id="newbtn">Basic</button>
+
                 <!-- <div class="post_article pull-left">    -->
                 <table id="customers">
                     <tr>
                         <th>#Group ID</th>
                         <th>Group Name</th>
                         <th></th>
-                        <th></th>
+
                     </tr>
                     <tr>
                         <td>1</td>
                         <td>User</td>
-                        <td><button type="button " class="btn btn-default groupedit btn-sm"><i class="fa fa-pencil"
-                            aria-hidden="true"></i></button></td>
-                <td><button type="button " class="btn btn-warning table_trash btn-sm"><i class="fa fa-trash"
-                            aria-hidden="true"></button></td>
+                        <td>
+                            <button type="button " class="btn btn-default groupedit btn-sm"><i class="fa fa-pencil"
+                                    aria-hidden="true"></i>
+                            </button>
+                            <button type="button " class="btn btn-default table_trash btn-sm"><i class="fa fa-trash"
+                                    aria-hidden="true"></i></button>
+                        </td>
+
                     </tr>
                     <tr>
                         <td>2</td>
                         <td>Admin</td>
-                        <td><button type="button " class="btn btn-default groupedit btn-sm"><i class="fa fa-pencil"
-                            aria-hidden="true"></i></button></td>
-                <td><button type="button " class="btn btn-warning table_trash btn-sm"><i class="fa fa-trash"
-                            aria-hidden="true"></button></td>
+                        <td>
+                            <button type="button " class="btn btn-default groupedit btn-sm"><i class="fa fa-pencil"
+                                    aria-hidden="true"></i>
+                            </button>
+                            <button type="button " class="btn btn-default table_trash btn-sm"><i class="fa fa-trash"
+                                    aria-hidden="true"></i></button>
+                        </td>
 
                     </tr>
                     <tr>
                         <td>3</td>
                         <td>Moderator</td>
-                        <td><button type="button " class="btn btn-default groupedit btn-sm"><i class="fa fa-pencil"
-                            aria-hidden="true"></i></button></td>
-                <td><button type="button " class="btn btn-warning table_trash btn-sm"><i class="fa fa-trash"
-                            aria-hidden="true"></button></td>
+                        <td>
+                            <button type="button " class="btn btn-default groupedit btn-sm"><i class="fa fa-pencil"
+                                    aria-hidden="true"></i>
+                            </button>
+                            <button type="button " class="btn btn-default table_trash btn-sm"><i class="fa fa-trash"
+                                    aria-hidden="true"></i></button>
+                        </td>
 
                     </tr>
                     <tr>
                         <td>4</td>
                         <td>Employee</td>
-                        <td><button type="button " class="btn btn-default groupedit btn-sm"><i class="fa fa-pencil"
-                            aria-hidden="true"></i></button></td>
-                <td><button type="button " class="btn btn-warning table_trash btn-sm"><i class="fa fa-trash"
-                            aria-hidden="true"></button></td>
+                        <td>
+                            <button type="button " class="btn btn-default groupedit btn-sm"><i class="fa fa-pencil"
+                                    aria-hidden="true"></i>
+                            </button>
+                            <button type="button " class="btn btn-default table_trash btn-sm"><i class="fa fa-trash"
+                                    aria-hidden="true"></i></button>
+                        </td>
                     </tr>
                     <tr>
                         <td>5</td>
                         <td>Employee</td>
-                        <td><button type="button " class="btn btn-default groupedit btn-sm"><i class="fa fa-pencil"
-                            aria-hidden="true"></i></button></td>
-                <td><button type="button " class="btn btn-warning table_trash btn-sm"><i class="fa fa-trash"
-                            aria-hidden="true"></button></td>
+                        <td>
+                            <button type="button " class="btn btn-default groupedit btn-sm"><i class="fa fa-pencil"
+                                    aria-hidden="true"></i>
+                            </button>
+                            <button type="button " class="btn btn-default table_trash btn-sm"><i class="fa fa-trash"
+                                    aria-hidden="true"></i></button>
+                        </td>
                     </tr>
                     <tr>
                         <td>6</td>
                         <td>Employee</td>
-                        <td><button type="button " class="btn btn-default groupedit btn-sm"><i class="fa fa-pencil"
-                            aria-hidden="true"></i></button></td>
-                <td><button type="button " class="btn btn-warning table_trash btn-sm"><i class="fa fa-trash"
-                            aria-hidden="true"></button></td>
+                        <td>
+                            <button type="button " class="btn btn-default groupedit btn-sm"><i class="fa fa-pencil"
+                                    aria-hidden="true"></i>
+                            </button>
+                            <button type="button " class="btn btn-default table_trash btn-sm"><i class="fa fa-trash"
+                                    aria-hidden="true"></i></button>
+                        </td>
                     </tr>
                     <tr>
                         <td>7</td>
                         <td>Employee</td>
-                        <td><button type="button " class="btn btn-default groupedit btn-sm"><i class="fa fa-pencil"
-                            aria-hidden="true"></i></button></td>
-                <td><button type="button " class="btn btn-warning table_trash btn-sm"><i class="fa fa-trash"
-                            aria-hidden="true"></button></td>
+                        <td>
+                            <button type="button " class="btn btn-default groupedit btn-sm"><i class="fa fa-pencil"
+                                    aria-hidden="true"></i>
+                            </button>
+                            <button type="button " class="btn btn-default table_trash btn-sm"><i class="fa fa-trash"
+                                    aria-hidden="true"></i></button>
+                        </td>
                     </tr>
                     <tr>
                         <td>8</td>
                         <td>Admin</td>
-                        <td><button type="button " class="btn btn-default groupedit btn-sm"><i class="fa fa-pencil"
-                            aria-hidden="true"></i></button></td>
-                <td><button type="button " class="btn btn-warning table_trash btn-sm"><i class="fa fa-trash"
-                            aria-hidden="true"></button></td>
+                        <td>
+                            <button type="button " class="btn btn-default groupedit btn-sm"><i class="fa fa-pencil"
+                                    aria-hidden="true"></i>
+                            </button>
+                            <button type="button " class="btn btn-default table_trash btn-sm"><i class="fa fa-trash"
+                                    aria-hidden="true"></i></button>
+                        </td>
                     </tr>
                 </table>
                 <!-- </div> -->
@@ -230,8 +256,15 @@
     <script>
         function onButtonClick() {
             document.getElementById('textInput').className = "show";
-            // document.getElementById('newbtn').className = "show";
         }
+      
+    </script>
+    <script>
+          $("#first-button").click(function () {
+            ev.preventDefault();
+            $('#newbtn').removeClass('hide');
+           
+        });
     </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
         integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>
-        Profile
+       AdminQuestionDetals
     </title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -68,85 +68,82 @@
 
     <div class="container mt-4">
         <div class="row">
-            <!-- post start  -->
-            <div class="askqst_post_wrap profile_img">
-                <div class="row box_shado row_div">
-                    <div class="col-sm-6 profile_div">
-                        <img src="img/profile.jpg" class="main-cmt-profile">
-                        <!-- <i class="fa fa-camera camera_icon" aria-hidden="true" ></i>  -->
-                        <div class="pro_heading"> 
-                            <h4><strong>Profile</strong></h4>
-                        </div>
-                        <div class="left_div">
-                            <p><i class="fa fa-user text_design" aria-hidden="true"></i><strong>FirstName</strong></p>
-                            <div class="para_name">
-                                <p class="name_desin">Efrana </p>
-                                <hr />
+            <div class="col-md-9 col-sm-8 col-xs-12">
+                
+
+                <!-- post start  -->
+                <div class="askqst_post_wrap">
+                    <h3 class="ask-h3">Question Details</h3>
+                    <div class="post_article full pull-left">
+                        <form >
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Title</label>
+                             
+                                    <input class="form-control" placeholder="title here" />
+                                      <small id="emailHelp" class="form-text text-muted">
+                                    Be specific and imagine you’re asking a question to another person.</small>
                             </div>
-
-                            <p><i class="fa fa-user text_design" aria-hidden="true"></i><strong>LastName</strong></p>
-                            <div class="para_name">
-                                <p class="name_desin">Jannat</p>
-                                <hr />
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Body</label>
+                               
+                                    <textarea id="summernote" class=" textInput form-control text_area" name="editordata" placeholder="Body"></textarea>
+                                        <small id="emailHelp" class="form-text text-muted">
+                                    Be specific and imagine you’re asking a question to another person.</small> 
                             </div>
-                            <p><i class="fa fa-user text_design" aria-hidden="true"></i><strong>Username</strong></p>
-                            <div class="para_name">
-                                <p class="name_desin">Efrana Jannat</p>
-                                <hr />
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Tags</label>
+                                <br />
+                              
+                                    <textarea  class=" textInput form-control text_area" name="editordata" placeholder="Tags" data-role="tagsinput"></textarea>
+                                 <small id="emailHelp" class="form-text text-muted">
+                                    Add up to 5 tags to describe what your question is about.</small>
                             </div>
-                            <p><i class="fa fa-envelope text_design" aria-hidden="true"></i></i><strong>Email</strong>
-                            </p>
-                            <div class="para_name">
-                                <p class="name_desin">efrana@gmail.com</p>
-                                <hr />
-                            </div>
-
-                            <p><i class="fa fa-mobile text_design" aria-hidden="true"></i><strong>Mobile Number</strong>
-                            </p>
-                            <div class="para_name">
-                                <p class="name_desin">0193248347</p>
-                                <!-- <hr /> -->
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-sm-6 settings_div pi_border">
-                        <div class="heading">
-                            <h4><strong>Settings</strong></h4>
-                        </div>
-                        <form>
-                            <div class="left_div">
-
-                                <div class="para_name">
-                                    <p class="name2_desin">Old Password:
-                                        <input type="email" class="text-line">
-                                    </p>
-                                    <br />
-                                </div>
-
-
-                                <div class="para_name">
-                                    <p class="name2_desin">New Password:
-                                        <input type="email" class="text-line">
-                                    </p>
-                                    <br />
-                                </div>
-
-                                <div class="para_name">
-                                    <p class="name2_desin">Confirm Password:
-                                        <input type="email" class="text-line">
-                                    </p>
-                                </div>
-                            </div>
-                            <!-- <button type="submit" class="btn btn-success btnSave">Save</button> -->
+                            <button type="submit" class="btn btn-danger admin_approve ">Approve</button>
+                            <button type="submit" class="btn btn-danger admin_cancel">Cancel</button>
                         </form>
                     </div>
-                    <button type="submit" class="btn btn-success passord_change">Update Profile</button>
+
                 </div>
+                <!-- post end  -->
+
             </div>
-            <!-- post end  -->
+            <div class="col-md-3 col-sm-4 col-xs-12">
+                <div class="sidebar">
+
+                    <h3>Tags</h3>
+                    <ul>
+                        <span class="label label-default custom_bg">Jquery</span>
+                        <span class="label label-default custom_bg">Php</span>
+                        <span class="label label-default custom_bg">Laravel</span>
+                        <span class="label label-default custom_bg">Bootstrap</span>
+                        <span class="label label-default custom_bg">Flatter</span>
+                        <span class="label label-default custom_bg">Java</span>
+                        <span class="label label-default custom_bg">Mysql</span>
+                    </ul>
+
+                </div>
+                <div class="sidebar">
+
+                    <h3>Recent Posts</h3>
+                    <ul>
+                        <li>
+                            <h4><a href="#">There are many variations of passages of Lorem Ipsum</a></h4>
+                        </li>
+                        <li>
+                            <h4><a href="#">There are many variations of passages of Lorem Ipsum</a></h4>
+                        </li>
+                        <li>
+                            <h4><a href="#">There are many variations of passages of Lorem Ipsum</a></h4>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
         </div>
     </div>
+
     <footer>
         <div class="container">
             <div class="row">
@@ -198,24 +195,19 @@
     </footer>
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="js/jquery.min.js"></script>
-    <script>
-        function onButtonClick() {
-            document.getElementById('textInput').className = "show";
-            // document.getElementById('newbtn').className = "show";
-        }
-    </script>
+   
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
         integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
-
-
         </script>
-    <script src="js/custom.js">
-    </script>
-    <script>
-        function onButtonClick() {
-            event.preventDefault()
-            document.getElementById('textInput').className = "show form-control";
-        }
+        <!-- include summernote css/js -->
+<link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
+    <script src="js/custom.js"></script>
+     <script>
+         $('#summernote').summernote({
+        placeholder: 'Write Your Question', 
+        height: 170
+      });
     </script>
 </body>
 
