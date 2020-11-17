@@ -40,18 +40,18 @@
 					</button>
 					<a class="navbar-brand header-logo" href="#"><img src="img/logo.png" class="img-responsive"
 							alt="Logo" /></a>
-
 				</div>
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-right">
 						<li>
-							<a href="#">Question's</a>
+							<a href="home.html">Question's</a>
 						</li>
 						<li>
-							<a href="#">Login</a>
+							<a href="#" data-toggle="modal" data-target="#mymodal">Login</a>
 						</li>
 						<li>
-							<a href="#" class="btn  btn-sm btn-user">Sign Up</a>
+							<a href="#" class="btn  btn-sm btn-user" data-toggle="modal" data-target="#signupmodal">Sign
+								Up</a>
 						</li>
 					</ul>
 					<form class="form-inline">
@@ -66,6 +66,86 @@
 		</div>
 		<!-- /.container-fluid -->
 	</nav>
+
+	<!-- modal Start -->
+	<div class="modal" tabindex="-1" role="dialog" id="mymodal">
+		<div class="modal-dialog modal_width" role="document">
+			<div class="modal-content">
+				<a href="#"><i class="fa fa-window-close window_close_icon" aria-hidden="true"></i></a>
+				<div class="modal-header boder-bottom-color">
+					<img src="img/login.jpg" class="img-responsive modal-title modal-body-design" />
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					</button>
+				</div>
+				<div class="modal-body modal-body-design2">
+					<p class="modal_p"><strong>Login Customer</strong> </p>
+					<form>
+						<div class="form-group">
+							<input type="email" class="form-control" id="exampleInputEmail1"
+								aria-describedby="emailHelp" placeholder="Enter email">
+						</div>
+						<div class="form-group">
+							<input type="password" class="form-control" id="exampleInputPassword1"
+								placeholder="Password">
+						</div>
+						<p class="modal_p2">forget password?</p>
+						<button type="submit" class="btn btn-primary btn_secoend">Submit</button>
+					</form>
+				</div>
+				<div class="modal-footer boder-bottom-color">
+					<p class="modal_p">Don't Have an Account?<a href="#" class="signup"><strong> Sign
+								up</strong></a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- modal End -->
+
+	<!-- modal2 Start -->
+	<div class="modal" tabindex="-1" role="dialog" id="signupmodal">
+		<div class="modal-dialog modal2_width" role="document">
+			<div class="modal-content">
+				<a href="#"><i class="fa fa-window-close window_close_icon" aria-hidden="true"></i></a>
+				<div class="modal-header boder-bottom-color">
+					<img src="img/login.jpg" class="img-responsive modal-title modal2-body-design" />
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					</button>
+				</div>
+				<div class="modal-body modal-body-design2">
+					<p class="modal_p"><strong>SignUp Customer</strong> </p>
+					<form>
+						<div class="form-group">
+							<input type="userName" class="form-control" id="exampleInputUserName"
+								aria-describedby="emailHelp" placeholder="UserName">
+						</div>
+						<div class="form-group">
+							<input type="phone" class="form-control" id="exampleInputPhone" aria-describedby="emailHelp"
+								placeholder="PhoneNo">
+						</div>
+						<div class="form-group">
+							<input type="email" class="form-control" id="exampleInputEmail1"
+								aria-describedby="emailHelp" placeholder="Email">
+						</div>
+
+						<div class="form-group">
+							<input type="password" class="form-control" id="exampleInputPassword1"
+								placeholder="Password">
+						</div>
+						<p>Upload Profile image</p>
+						<div class="form-group">
+							<input type="file" id="myfile" name="myfile"><br><br>
+							<button type="submit" class="btn btn-primary btn_secoend">Submit</button>
+						</div>
+					</form>
+				</div>
+				<div class="modal-footer boder-bottom-color">
+					<p class="modal_p">Have an Account?<a href="#" class="signup"><strong>
+								Login</strong></a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- modal2 End -->
 	<div class="container mt-4">
 		<div class="row">
 			<div class="col-md-9 col-sm-8 col-xs-12">
@@ -309,7 +389,7 @@
 									<div class="form-group">
 										<label for="exampleInputPassword1">Your Answer</label>
 										<textarea id="summernote" class=" textInput form-control text_area"
-											name="editordata" ></textarea>
+											name="editordata"></textarea>
 									</div>
 								</form>
 								<button type="button" class="btn btn-success post-btn">Post Your Answer</button>

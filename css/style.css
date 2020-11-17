@@ -655,6 +655,10 @@ textarea {
     box-shadow: none;
    border: 1px solid #44ce6f;
 }
+  #text:focus{
+    box-shadow: none;
+   border: 1px solid #44ce6f;
+}
 .text_area{
 	padding-top: 18px;
 }
@@ -795,10 +799,7 @@ textarea {
 	margin-left: -46px;
 	box-shadow:  0 0 10px 5px #C0C0C0;
 }
-/* .profile_div{
 
-  background-color: greenyellow;
-} */
 .tdname{
 	color:#44ce6f ;
 	font-size: 11px;
@@ -857,8 +858,6 @@ textarea {
   font-family:'Open Sans Light', sans-serif ;
   margin-left: 90%;
   margin-bottom: 5px;
-  /* background-color: #44ce6f; */
-  /* color: white; */
 }
 .addGroup:hover {
 	background-color: white;
@@ -963,22 +962,69 @@ textarea {
     border-bottom: solid#C0C0C0 1px;
     padding: 3px 10px;
 }
-/* .btnSave{
-	margin-top: 20%;
-	margin-left: 42%;
-	background-color: #44ce6f;
-	border: #44ce6f;
-}
-.btnSave:hover {
-	background-color: white;
-	color:#44ce6f;
-	border: 1px solid #44ce6f;
-  } */
+
 
   /* camera css */
  .camera_icon{
    color: gray;
  }
+ .admin_icon{
+	 color: gray;
+	
+ }
+ .admin_text{
+	 color: black;
+	 font-size: 15px;
+	 font-family:  sans-serif;
+
+ }
+ .botom_design{
+	 margin-left: 45%;
+	 margin-top: 7px;
+	 color: #44ce6f;
+ }
+ .botom_design_text{
+   color: #44ce6f;
+   margin-left: 48.3%;
+   margin-top: -26px;
+   font-family: fantasy;
+   font-size: medium;
+ }
+ .icon_color{
+	 color: gray;
+ }
+ .Add_group{
+	margin-left: 10%;
+	width: 500px;
+ }
+ .add_permisision{
+	 margin-left: 24%;
+	 width: 700px;
+ }
+ .addButton{
+	 background-color:#44ce6f ;
+	 border: #44ce6f;
+	 color: white;
+
+ }
+ .addButton:hover {
+	background-color: white;
+	color:#44ce6f;
+	border: 1px solid #44ce6f;
+  } 
+  .buttonDiv{
+	  margin-top: 20px;
+   margin-left: 170%;
+   width: 500px;
+  }
+  .checkBox{
+	  text-align: left;
+	  margin-left: 42%;
+  }
+  input:checked {
+	/* margin-left: 25px; */
+background-color: green;
+  }
 
 
 /*=========================================details page css end ============================================= */

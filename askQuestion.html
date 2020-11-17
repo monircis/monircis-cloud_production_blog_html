@@ -46,7 +46,7 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a href="#">Question's</a>
+                            <a href="home.html">Question's</a>
                         </li>
                         <li>
                             <!-- <a href="#">Login</a> -->
@@ -69,36 +69,35 @@
     </nav>
     <!-- modal Start -->
     <div class="modal" tabindex="-1" role="dialog" id="mymodal">
-        
+
         <div class="modal-dialog modal_width" role="document">
             <div class="modal-content ask-qu-modal">
                 <!-- <div class="modal-header bottom-color"> -->
-                    <div class="modal-head">
-                        <i class="fa fa-window-close window_close_icon" aria-hidden="true"></i>
+                <div class="modal-head">
+                    <i class="fa fa-window-close window_close_icon" aria-hidden="true"></i>
                     <h2> <strong>Asking a good question</strong></h2>
-                    
+
                 </div>
+
+                <p class="modal_p3">
+                    You’re ready to ask your first programming-related question and the community is
+                    here to help! To get you the best answers, we’ve provided some guidance:
+                    <br />
+                    <br />
+                    Before you post, <span class="modal-middele">search the site </span>to make sure your question
+                    hasn’t been answered.
+                </p>
+
                 <!-- </div> -->
-                <!-- <div class="modal-body modal-body-design2"> -->
-                    
-                    <p class="modal_p3">
-                        You’re ready to ask your first programming-related question and the community is
-                        here to help! To get you the best answers, we’ve provided some guidance:
-                        <br/>
-                        <br/>
-                        Before you post, <span class="modal-middele">search the site </span>to make sure your question hasn’t been answered.
-                    </p>
-               
-                <!-- </div> -->
-              
-                    <p class="bottom-design"><span class="span_num">1.</span> Summarize the problem</p>
-                    <p class="bottom-design"><span class="span_num">2.</span> Describe what you’ve tried</p>
-                    <p class="bottom-design"><span class="span_num">3.</span> When appropriate, show some code</p>
-                     <p class="modal_p4">You’ll find more tips in the sidebar.</p>
-                     <!-- <button type="button" class="btn btn-primary modal2_btn">Start writting</button> -->
-                     <button type="button" class="btn btn-light modal2_btn">Start writting</button>
-                     <button type="button" class="btn btn-light modal2_btn2">Don't show this message again</button>
-                
+
+                <p class="bottom-design"><span class="span_num">1.</span> Summarize the problem</p>
+                <p class="bottom-design"><span class="span_num">2.</span> Describe what you’ve tried</p>
+                <p class="bottom-design"><span class="span_num">3.</span> When appropriate, show some code</p>
+                <p class="modal_p4">You’ll find more tips in the sidebar.</p>
+                <!-- <button type="button" class="btn btn-primary modal2_btn">Start writting</button> -->
+                <button type="button" class="btn btn-light modal2_btn">Start writting</button>
+                <button type="button" class="btn btn-light modal2_btn2">Don't show this message again</button>
+
             </div>
         </div>
     </div>
@@ -117,13 +116,13 @@
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Title</label>
 
-                                <input class="form-control" placeholder="title here"/>
+                                <input class="form-control" id="textInput" placeholder="title here" />
                                 <small id="emailHelp" class="form-text text-muted">
                                     Be specific and imagine you’re asking a question to another person.</small>
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputPassword1">Body</label>
-                                <textarea id="summernote" class=" textInput form-control text_area" name="editordata"
+                                <textarea id="summernote" id="textInput" class=" textInput form-control text_area" name="editordata"
                                     placeholder="Body"></textarea>
                                 <small id="emailHelp" class="form-text text-muted">
                                     Be specific and imagine you’re asking a question to another person.</small>
@@ -132,7 +131,7 @@
                                 <label for="exampleInputPassword1">Tags</label>
                                 <br />
 
-                                <textarea class=" textInput form-control text_area" name="editordata" placeholder="Tags"
+                                <textarea class=" textInput form-control text_area" id="textInput" name="editordata" placeholder="Tags"
                                     data-role="tagsinput"></textarea>
                                 <small id="emailHelp" class="form-text text-muted">
                                     Add up to 5 tags to describe what your question is about.</small>

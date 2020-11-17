@@ -68,13 +68,9 @@
 
     <div class="container mt-4">
         <div class="row">
-            <!-- <div class="col-md-9 col-sm-8 col-xs-12"> -->
-
             <!-- post start  -->
             <div class="askqst_post_wrap">
                 <h4 class="header3">Groups</h4>
-                <button type="button" id="first-button" class="btn btn-secondary addGroup" onclick="onButtonClick()"><i
-                        class="fa fa-plus plus_icon" aria-hidden="true" style="color: #44ce6f ;"></i>Add Group</button>
                 <div class="text_control">
                     <input class="hide textInput " id="textInput" name="story" placeholder="Add Group"
                         style="margin-bottom: 5px;"></input>
@@ -84,105 +80,116 @@
                 <!-- <div class="post_article pull-left">    -->
                 <table id="customers">
                     <tr>
-                        <th>#Group ID</th>
-                        <th>Group Name</th>
-                        <th></th>
 
+                        <th>Group</th>
+                        <th>Users</th>
+                        <th>Permissions</th>
                     </tr>
                     <tr>
-                        <td>1</td>
-                        <td>User</td>
-                        <td>
-                            <button type="button " class="btn btn-default groupedit btn-sm"><i class="fa fa-pencil"
-                                    aria-hidden="true"></i>
-                            </button>
-                            <button type="button " class="btn btn-default table_trash btn-sm"><i class="fa fa-trash"
-                                    aria-hidden="true"></i></button>
+                        <td> <span class="admin_text">Admin</span>
+                            <br />
+                            <br />
+                            <i class="fa fa-user admin_icon" aria-hidden="true" style="font-size:45px"></i>
                         </td>
-
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Admin</td>
                         <td>
-                            <button type="button " class="btn btn-default groupedit btn-sm"><i class="fa fa-pencil"
-                                    aria-hidden="true"></i>
-                            </button>
-                            <button type="button " class="btn btn-default table_trash btn-sm"><i class="fa fa-trash"
-                                    aria-hidden="true"></i></button>
+                            <div class="checkBox">
+                            <a href="#"> <i class="fa fa-minus-circle icon_color" aria-hidden="true"></i></a>
+                            Efrana
+                            <br />
+                            <a href="#"> <i class="fa fa-plus-circle icon_color" aria-hidden="true"></i></a>
+                            Add new
+                        </div>
                         </td>
-
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Moderator</td>
                         <td>
-                            <button type="button " class="btn btn-default groupedit btn-sm"><i class="fa fa-pencil"
-                                    aria-hidden="true"></i>
-                            </button>
-                            <button type="button " class="btn btn-default table_trash btn-sm"><i class="fa fa-trash"
-                                    aria-hidden="true"></i></button>
-                        </td>
-
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>Employee</td>
-                        <td>
-                            <button type="button " class="btn btn-default groupedit btn-sm"><i class="fa fa-pencil"
-                                    aria-hidden="true"></i>
-                            </button>
-                            <button type="button " class="btn btn-default table_trash btn-sm"><i class="fa fa-trash"
-                                    aria-hidden="true"></i></button>
+                            <div class="checkBox">
+                                <input type="checkbox" checked>
+                                <span>Read all page<span><br>
+                                        <input type="checkbox" checked>
+                                        <span>edit all page</span><br>
+                                        <input type="checkbox" checked>
+                                        <span>Can access user Info</span><br>
+                                        <input type="checkbox" checked>
+                                        <span>Can Approve Post</span><br>
+                                        <input type="checkbox" checked>
+                                        <span>Can Ban User</span><br>
+                                        <input type="checkbox" checked>
+                                        <span>Can delete User</span><br>
+                            </div>
                         </td>
                     </tr>
                     <tr>
-                        <td>5</td>
-                        <td>Employee</td>
+                        <td><span class="admin_text">Moderator</span>
+                            <br />
+                            <br />
+                            <i class="fa fa-users admin_icon" style="font-size:45px"></i>
+                        </td>
                         <td>
-                            <button type="button " class="btn btn-default groupedit btn-sm"><i class="fa fa-pencil"
-                                    aria-hidden="true"></i>
-                            </button>
-                            <button type="button " class="btn btn-default table_trash btn-sm"><i class="fa fa-trash"
-                                    aria-hidden="true"></i></button>
+                            <div class="checkBox">
+                            <a href="#"><i class="fa fa-minus-circle icon_color" aria-hidden="true"></i></a>
+                            Jannat
+                            <br />
+                            <a href="#"> <i class="fa fa-plus-circle icon_color" aria-hidden="true"></i></a>
+                            Add new
+                            </div>
+                        </td>
+                        <td>
+                            <div class="checkBox">
+                                <input type="checkbox" checked>
+                                <span>Read all page<span><br>
+                                        <input type="checkbox" checked>
+                                        <span>edit all page</span><br>
+                                        <input type="checkbox" checked>
+                                        <span>Can access user Info</span><br>
+                                        <input type="checkbox" checked>
+                                        <span>Can Approve Post</span><br>
+                                        <input type="checkbox" checked>
+                                        <span>Can Ban User</span><br>
+                                        <input type="checkbox" checked>
+                                        <span>Can delete User</span><br>
+                            </div>
                         </td>
                     </tr>
                     <tr>
-                        <td>6</td>
-                        <td>Employee</td>
                         <td>
-                            <button type="button " class="btn btn-default groupedit btn-sm"><i class="fa fa-pencil"
-                                    aria-hidden="true"></i>
-                            </button>
-                            <button type="button " class="btn btn-default table_trash btn-sm"><i class="fa fa-trash"
-                                    aria-hidden="true"></i></button>
+                            <span class="admin_text">Member</span>
+                            <br />
+                            <br />
+                            <i class="fa fa-users admin_icon" style="font-size:45px"></i>
                         </td>
-                    </tr>
-                    <tr>
-                        <td>7</td>
-                        <td>Employee</td>
                         <td>
-                            <button type="button " class="btn btn-default groupedit btn-sm"><i class="fa fa-pencil"
-                                    aria-hidden="true"></i>
-                            </button>
-                            <button type="button " class="btn btn-default table_trash btn-sm"><i class="fa fa-trash"
-                                    aria-hidden="true"></i></button>
+                            <div class="checkBox">
+                            <a href="#"> <i class="fa fa-minus-circle icon_color" aria-hidden="true"></i></a>
+                            Farhana
+                            <br />
+                            <a href="#"><i class="fa fa-plus-circle icon_color" aria-hidden="true"></i></a>
+                            Add new
+                        </div>
                         </td>
-                    </tr>
-                    <tr>
-                        <td>8</td>
-                        <td>Admin</td>
                         <td>
-                            <button type="button " class="btn btn-default groupedit btn-sm"><i class="fa fa-pencil"
-                                    aria-hidden="true"></i>
-                            </button>
-                            <button type="button " class="btn btn-default table_trash btn-sm"><i class="fa fa-trash"
-                                    aria-hidden="true"></i></button>
+                            <div class="checkBox">
+                                <input type="checkbox" checked>
+                                <span>Read all page<span><br>
+                                        <input type="checkbox" checked>
+                                        <span>edit all page</span><br>
+                                        <input type="checkbox" checked>
+                                        <span>Can access user Info</span><br>
+                                        <input type="checkbox" checked>
+                                        <span>Can Approve Post</span><br>
+                                        <input type="checkbox" checked>
+                                        <span>Can Ban User</span><br>
+                                        <input type="checkbox" checked>
+                                        <span>Can delete User</span><br>
+                            </div>
                         </td>
                     </tr>
                 </table>
-                <!-- </div> -->
 
+                <a href="addGroups.html"> <i class="fa fa-plus-circle botom_design" aria-hidden="true"
+                        style="font-size: 35px;"></i></a>
+                <p class="botom_design_text"> Add a new group</p>
+
+
+                <!-- </div> -->
             </div>
             <!-- post end  -->
         </div>
@@ -253,19 +260,19 @@
     </footer>
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="js/jquery.min.js"></script>
-    <script>
+    <!-- <script>
         function onButtonClick() {
             document.getElementById('textInput').className = "show";
         }
-      
-    </script>
-    <script>
-          $("#first-button").click(function () {
+
+    </script> -->
+    <!-- <script>
+        $("#first-button").click(function () {
             ev.preventDefault();
             $('#newbtn').removeClass('hide');
-           
+
         });
-    </script>
+    </script> -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
         integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
 
